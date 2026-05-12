@@ -1,7 +1,8 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import buildingImage from '../../assets/pinaki-ray-building-pic.webp';
+import buildingImage from '../../assets/about/pinaki-ray-building-pic.webp';
+import Link from 'next/link';
 
 const AboutSection = () => {
   return (
@@ -23,9 +24,9 @@ const AboutSection = () => {
             Late Dr. Pinaki Ranjan Ray started the hospital. He was a world renowned Ophthalmologist and philanthropist. His contribution to community eye care is well known. He himself had done more than one lakh fifty thousand eye surgeries single handedly in various eye camps in and around Malda, Bihar, Jharkhand, North East and Assam.
           </p>
           
-          <button className="bg-[#ff8a00] text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-[#2f317b] transition-colors shadow-md">
+          <Link href="/about" className="bg-[#ff8a00] text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-[#2f317b] transition-colors shadow-md">
             Read More
-          </button>
+          </Link>
         </div>
 
         {/* Image */}

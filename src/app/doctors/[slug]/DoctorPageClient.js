@@ -3,7 +3,6 @@
 import { doctorsData } from "@/data/doctorsData";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { motion } from "motion/react";
 
 export default function DoctorPageClient({ slug }) {
@@ -59,25 +58,6 @@ export default function DoctorPageClient({ slug }) {
                 <span className="font-semibold">Experienced in:</span>{" "}
                 {doctor.experience}
               </p>
-
-              {/* Social Media Icons */}
-              <div className="flex gap-4 mb-8">
-                {[
-                  { Icon: FaFacebook, href: "#" },
-                  { Icon: FaInstagram, href: "#" },
-                  { Icon: FaLinkedin, href: "#" }
-                ].map((social, index) => (
-                  <motion.a
-                    key={index}
-                    href={social.href}
-                    whileHover={{ y: -5, scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="w-11 h-11 flex items-center justify-center bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white hover:bg-[#ff8a00] hover:border-[#ff8a00] transition-all duration-300 shadow-lg"
-                  >
-                    <social.Icon size={18} />
-                  </motion.a>
-                ))}
-              </div>
 
               {/* CTA Button */}
               <motion.a

@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+import founderImg from '@/assets/home/Legacy-Img.png'
 
 const FounderSection = () => {
   return (
@@ -8,7 +9,7 @@ const FounderSection = () => {
       <div className="max-w-[1200px] mx-auto px-4">
         <div className="" style={{minHeight: '300px'}}>
           <Image 
-            src="/Legacy-Img.jpg"
+            src={founderImg}
             alt="Dr. Pinaki Ranjan Ray Legacy"
             width={1200}
             height={500}

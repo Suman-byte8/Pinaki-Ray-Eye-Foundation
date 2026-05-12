@@ -84,23 +84,7 @@ const ConsultantsSection = () => {
                 </div>
 
                 <p className="text-[#2f317b] text-sm mt-3 mb-1 font-medium">{doc.role}</p>
-                <p className="text-gray-500 text-sm mb-6">{doc.specialization}</p>
-                
-                {/* Social Icons - Staggered lift on hover */}
-                <div className="flex gap-3 justify-center mt-auto">
-                  <a 
-                    href="#" 
-                    className="w-8 h-8 rounded-full bg-[#ff8a00] flex items-center justify-center text-white transition-all duration-300 hover:bg-[#2f317b] transform group-hover:-translate-y-1 group-hover:shadow-md"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                  </a>
-                  <a 
-                    href="#" 
-                    className="w-8 h-8 rounded-full bg-[#ff8a00] flex items-center justify-center text-white transition-all duration-300 hover:bg-[#2f317b] transform group-hover:-translate-y-1 group-hover:shadow-md delay-75"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                  </a>
-                </div>
+                <p className="text-gray-500 text-sm mb-6 mt-auto">{doc.specialization}</p>
               </div>
 
               {/* Creative Flourish: Expanding Orange Bottom Border */}

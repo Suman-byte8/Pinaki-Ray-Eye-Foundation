@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import hospitalImg from "../../assets/pinaki-ray-building-pic.webp"; // use your building image
-
+import hospitalImg from "../../assets/about/pinaki-ray-building-pic.webp";
 const AboutIntroSection = () => {
   return (
     <section className="py-20 bg-white">
