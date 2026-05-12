@@ -191,7 +191,7 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Back to Top Button */}
+          {/* Basck to Top Button */}
           <button 
             onClick={scrollToTop}
             className="fixed bottom-5 right-5 z-50 w-12 h-12 bg-[#0ea5e9] hover:bg-[#f97316] text-white flex items-center justify-center rounded-full shadow-lg transition-colors duration-300 group"
