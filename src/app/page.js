@@ -10,7 +10,7 @@ import CtaStrip from "@/components/Home/CtaStrip";
 
 export default function Home() {
   return (
-    <>
+    <main className="pt-10 md:pt-12 lg:pt-20">
       <HeroBanner />
       <AboutSection />
       <ServicesSection />
@@ -18,7 +18,7 @@ export default function Home() {
       <ConsultantsSection />
       <FaqSection />
       <CtaStrip />
-    </>
+    </main>
   );
 }
 
